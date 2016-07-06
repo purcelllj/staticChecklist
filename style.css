@@ -1,0 +1,62 @@
+
+body {
+    /*background: url('http://1.bp.blogspot.com/-UGQYEKQwjlY/VZRWQXZ3YiI/AAAAAAABJyM/9FgHq_8bCP8/s1600/06_sunset%2Bin%2Bisland_01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;*/
+    font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+ul{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 50px;
+}
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    display: block;
+    background-color: white;
+    opacity: 0.7;
+    box-shadow: 0px 2px 20px 0 rgba(0,0,0,.5);
+}
+
+input {
+    margin-left: 10px;
+}
+span#right {
+    float: right;
+    margin-right: 10px;
+}
+
+span#right>a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #595959;
+}
+div.checklist {
+    /*border: 0.5px solid rgba(0,0,0,.3);*/
+    /*opacity: 0.6;*/
+    /*background-color: white;*/
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+    /*box-shadow: 0px 2px 20px 0 rgba(0,0,0,.5)*/
+}
+
+.completed {
+    text-decoration: line-through;
+    font-style:italic;
+
+}
+
+.next-line {
+    margin-left: 25px;
+}
