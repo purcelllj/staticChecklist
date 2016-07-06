@@ -2,7 +2,7 @@ $(document).ready(function(){
     var c = new Image();
 
     c.onload = function() {
-        $('body').css({'background':'url("img/hawSunset.png")', 'background-repeat':'no-repeat', 'background-size':'cover', 'background-position':'center', 'background-attachment':'scroll'});
+        $('body').css({'background':'url("img/hawSunset.png")', 'background-repeat':'no-repeat', 'background-size':'cover', 'background-position':'center', 'background-attachment':'fixed'});
     }
 
     c.src = 'img/hawSunset.png';
